@@ -17,7 +17,7 @@ const server = express()
 
 
 //const wss = new WebSocket.Server(undefined, );
-const wss = new WebSocket.Server({ port: 5030 });
+ const wss = new Server({ server });
 console.log("websocket server created");
 wss.on('connection', function connection(ws) {
 
